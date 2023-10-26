@@ -1,0 +1,392 @@
+/* 
+  File name:  TaxStyleSheet
+  Created on: January 24, 2002 at 12:52 PM
+  Author:     ODBMORT  
+
+  Description:
+    An empty stylesheet.
+*/    
+
+BODY {background: #FFFFFF; margin-top: 10.0; margin-bottom: 10.0; margin-left: 10.0;
+      margin-right: 10.0; font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: medium; color: #004080}
+
+
+/*
+
+A:link {color: #CC6633}
+A:active {color: #6699CC}
+A:visted {color: #6699CC}
+
+*/
+
+#FTSmall {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: small; color: #004080}
+#FTSmall-x {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: x-small; color: #004080}
+#FTSmall-xx{font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: xx-small; color: #004080}
+#FTLarge {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: large; color: #004080}
+#FTLarge-x {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: x-large; color: #004080}
+#FTLarge-xx {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: xx-large; color: #004080}
+#FTMedium {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: medium; color: #004080}
+
+#FTSmall-Req {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: small; color: #CC6633}
+#FTMedium-Req {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: medium; color: #CC6633}
+#FTLarge-Req {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: large; color: #CC6633}
+
+#FTSmallRed {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: small; color: RED}
+#FTMediumRed {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: medium; color: RED}
+#FTLargeRed {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: large; color: RED}
+
+#HTSmall {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: small; color: #6699CC}
+#HTMedium {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: medium; color: #6699CC}
+#HTLarge {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: normal; font-size: large; color: #6699CC}
+
+#FTSmall-Bold {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: bold; font-size: small; color: #004080}
+#FTSmall-x-Bold {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: bold; font-size: x-small; color: #004080}
+#FTSmall-xx-Bold{font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: bold; font-size: xx-small; color: #004080}
+#FTLarge-Bold {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: bold; font-size: large; color: #004080}
+#FTLarge-x-Bold {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: bold; font-size: x-large; color: #004080}
+#FTLarge-xx-Bold {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: bold; font-size: xx-large; color: #004080}
+#FTMedium-Bold {font-family: "Verdana, Arial, Helvetica, sans-serif"; font-style: normal; font-weight: bold; font-size: medium; color: #004080}
+
+
+.defaultColor {color: #004080}
+
+.sheader 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 18px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #CC6633; 
+	text-decoration: none
+}
+
+.main 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	font-weight: normal; 
+	color: #004080; 
+	text-decoration: none
+}
+
+.mainRed 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	font-weight: normal; 
+	color: #FF0000; 
+	text-decoration: none
+}
+
+A:link 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: normal; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: cc6633; 
+	text-decoration: underline
+}
+
+A:visited 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: normal; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: 6699cc; 
+	text-decoration: underline
+}
+A:active 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: normal; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: 6699cc; 
+	text-decoration: underline
+}
+
+.highlight
+{
+    FONT: bold 13px Verdana, Arial, Helvetica, sans-serif;
+    TEXT-TRANSFORM: none;
+    TEXT-DECORATION: none
+}
+
+.fieldheads 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #004080
+}
+
+.header 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 28px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #004080; 
+	text-decoration: none; 
+	letter-spacing: -0.05em; 
+	word-spacing: normal; 
+	text-align: left; 
+	vertical-align: 
+	text-bottom; 
+	white-space: nowrap
+}
+
+.mainbullet 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	line-height: 20px; 
+	font-weight: normal; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #004080; 
+	text-decoration: none; 
+	list-style-position: outside; 
+	list-style-image: none; 
+	list-style-type: square
+}
+
+.appborder
+{
+    BORDER-RIGHT: #003399 1px double;
+    BORDER-TOP: #003399 1px double;
+    BORDER-LEFT: #003399 1px double;
+    BORDER-BOTTOM: #003399 1px double
+}
+.notes 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #cc6633; 
+	text-decoration: none
+}
+.tablenstr 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	color: #004080; 
+	text-decoration: none; 
+	font-variant: normal; 
+	text-transform: none
+}
+.resulttext 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-style: normal; 
+	font-weight: bold; 
+	color: #000000
+}
+
+.apptable
+{
+    BORDER-RIGHT: #003399 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #003399 1px solid;
+    PADDING-LEFT: 3px;
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: #003399 1px solid;
+    WIDTH: 660px;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #003399 1px solid;
+    HEIGHT: auto;
+    BACKGROUND-COLOR: #99ccff
+}
+
+.ErrorMessage {
+	font-family: 'Arial';
+	font-size: 10pt;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.ErrorMessageHead {
+	font-family: 'Arial';
+	font-size: 13pt;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.notesbold 
+{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #cc6633; 
+	text-decoration: none 
+}
+
+.tablenstrbold 
+{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	color: #004080; 
+	text-decoration: none; 
+	font-variant: normal; 
+	text-transform: none 
+}
+
+.mainbold 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: italic; 
+	line-height: normal; 
+	font-weight: bold; 
+	font-variant: normal; 
+	color: 004080
+}
+
+.mainitalic 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: italic; 
+	line-height: normal; 
+	font-weight: normal; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #004080
+}
+
+.mainb 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #004080
+}
+
+.page 
+{  
+	page-break-before: always
+}
+
+.tablenstrprint 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #000000
+}
+
+.resulttextprint 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 9px; 
+	font-weight: bold; 
+	color: #000000
+}
+
+.mainprint 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 9px; 
+	font-weight: normal; 
+	color: #000000
+}
+
+.fieldheadsprint 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #333333
+}
+
+.voucher 
+{  
+	font-family: "Courier New", Courier, mono; 
+	font-size: 14px; 
+	font-weight: bold; 
+	color: #000000
+}
+
+.number 
+{  
+	font-family: "Courier New", Courier, mono; 
+	font-size: 16px; 
+	font-weight: normal; 
+	color: #000000
+}
+
+.numberlist 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	font-style: normal; 
+	font-weight: normal; 
+	list-style-position: outside; 
+	list-style-type: decimal; 
+	color: #004080
+}
+
+.buttons 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: bold; 
+	font-variant: normal; 
+	text-transform: none; 
+	color: #000000
+}
+
+.helpmain 
+{  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	font-style: normal; 
+	font-weight: normal; 
+	color: #004080; 
+	text-decoration: none
+}
